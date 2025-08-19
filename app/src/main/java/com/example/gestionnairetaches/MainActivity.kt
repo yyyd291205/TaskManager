@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GestionnaireTachesTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
+                    GestionnaireTaches(
 
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting( modifier: Modifier = Modifier) {
+fun GestionnaireTaches( modifier: Modifier = Modifier) {
 
     val image = painterResource(R.drawable.ic_task_completed)
 
@@ -68,8 +68,8 @@ fun Greeting( modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun GestionnaireTachesPreview() {
     GestionnaireTachesTheme {
-        Greeting()
+        GestionnaireTaches()
     }
 }
