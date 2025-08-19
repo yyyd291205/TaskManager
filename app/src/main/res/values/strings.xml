@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gestionnaire Taches</string>
+    <string name="blocText1">All tasks completed</string>
+    <string name="blocText2">Nice work!</string>
+</resources>
